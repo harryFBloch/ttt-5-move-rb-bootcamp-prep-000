@@ -16,6 +16,6 @@ end
 
 def move(board, move_num, player = "O")
  
-  board[move_num - 1] = player
+  board[move_num] = player
 
 end
