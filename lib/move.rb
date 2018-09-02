@@ -15,7 +15,9 @@ def input_to_index(move)
 end
 
 def move(board, move_num, player = "O")
-
+    if move_num = 9
+      player = "X"
+    end
   board[move_num] = player
 
 end
