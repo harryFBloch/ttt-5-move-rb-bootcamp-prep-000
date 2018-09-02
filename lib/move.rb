@@ -20,3 +20,4 @@ def move(board, move_num, player)
 else
   board[move_num] = "O"
 end
+end
