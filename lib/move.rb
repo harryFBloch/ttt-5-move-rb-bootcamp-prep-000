@@ -14,7 +14,7 @@ def input_to_index(move)
   move_num = move.to_i - 1
 end
 
-def move(board, move_num, player)
+def move(board, move_num, player = "X")
   if (player.even?)
   board[move_num] = "X"
 else
