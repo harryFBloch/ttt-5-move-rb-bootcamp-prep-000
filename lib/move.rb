@@ -14,7 +14,7 @@ def input_to_index(move)
   move.to_i - 1
 end
 
-def move(board, move_num, player = "O")
+def move(board, move_num, player = "X")
   if move_num = 8
     player = "X"
   end
