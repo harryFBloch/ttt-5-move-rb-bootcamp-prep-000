@@ -14,3 +14,5 @@ index = input_to_index(move_to)
 
 move(board,index,moveIndex)
 moveIndex += 1
+
+puts board
