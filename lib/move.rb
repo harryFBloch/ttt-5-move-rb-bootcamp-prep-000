@@ -7,3 +7,21 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+
+moveIndex = 0
+
+def input_to_index(move)
+  puts = "TEST"
+  move_num = move.to_i - 1
+  # if (move_num.even?)
+  #   player = "X"
+  # else
+  #   player = "O"
+  # end
+  # moveIndex++
+  # move(board, move_num, player)
+end
+
+def move(board, move_num, player)
+  board[move_num] = player
+end
