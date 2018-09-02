@@ -11,13 +11,11 @@ end
 
 def input_to_index(move)
   puts = "TEST"
-  move_num = move.to_i - 1
+  move
 end
 
 def move(board, move_num, player = "O")
-    if move_num = 8
-      player = "X"
-    end
-  board[move_num] = player
+ 
+  board[move_num.to_i - 1] = player
 
 end
