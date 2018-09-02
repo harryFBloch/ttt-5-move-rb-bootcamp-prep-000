@@ -15,5 +15,8 @@ def input_to_index(move)
 end
 
 def move(board, move_num, player)
-  board[move_num] = player
+  if (player.even?)
+  board[move_num] = "X"
+else
+  board[move_num] = "O"
 end
