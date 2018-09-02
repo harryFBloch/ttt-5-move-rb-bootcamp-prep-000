@@ -8,7 +8,6 @@ end
 
 # code your input_to_index and move method here!
 
-moveIndex = 0
 
 def input_to_index(move)
   puts = "TEST"
